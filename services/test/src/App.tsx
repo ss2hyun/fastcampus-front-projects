@@ -1,7 +1,7 @@
 import "./App.css";
 import { ThemeProvider } from "@emotion/react";
-import { vars } from "@fastcampus/themes";
 import styled from "@emotion/styled";
+import { vars, classes } from "@fastcampus/themes";
 
 function App() {
   const theme = {
@@ -19,7 +19,7 @@ export default App;
 const View = () => {
   return (
     <div className="App">
-      <Text>
+      <Text className="heading4xl">
         Edit <code>src/App.tsx</code> and save to reload.
       </Text>
     </div>
@@ -27,6 +27,7 @@ const View = () => {
 };
 
 const Text = styled.p`
+  ${classes.typography.heading.xl}
   color: ${({ theme }) => {
     //@ts-ignore
     return theme.colors.gray[900];
