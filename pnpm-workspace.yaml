@@ -1,0 +1,10 @@
+packages:
+  - "services/**"
+  - "packages/**"
+
+catalogs:
+  lint8:
+    eslint: ^8.57.0
+    prettier: ^3.4.2
+    stylelint: ^16.14.1
+    postcss-styled-syntax: ^0.7.0

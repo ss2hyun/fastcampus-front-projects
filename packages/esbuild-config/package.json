@@ -1,0 +1,14 @@
+{
+  "name": "@fastcampus/esbuild-config",
+  "packageManager": "pnpm@10.0.0",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "build": "echo \"Tada!\""
+  },
+  "dependencies": {
+    "esbuild": "^0.25.1"
+  }
+}
